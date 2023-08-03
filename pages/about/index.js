@@ -117,7 +117,19 @@ const About = () => {
       </motion.div>
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* text */}
-        <div className="flex-1 flex flex-col justify-center">text</div>
+        <div className="flex-1 flex flex-col justify-center">
+          <h2 className="h2">
+            Captivating <span className="text-accent">stories</span> birth
+            magnificent Designs
+          </h2>
+          <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
+            7 years ago, i began freelancing as a developer. since then, I've
+            done remote work for agencies, consulted for startups, and
+            collaborated on digital products fro business and consumer use.
+          </p>
+          {/* counters */}
+          <div></div>
+        </div>
         <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => {

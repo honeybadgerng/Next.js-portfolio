@@ -28,11 +28,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 //
 import "swiper/css";
-import "swiper/css/free-mode";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper";
 
 // icons
 import { FaQuoteLeft } from "react-icons/fa";
@@ -41,12 +41,12 @@ import Image from "next/image";
 const TestimonialSlider = () => {
   return (
     <Swiper
-      spaceBetween={10}
+      navigation={true}
       pagination={{
         clickable: true,
       }}
-      modules={[Pagination]}
-      className="h-[280px] sm:h-[480px]"
+      modules={[Navigation, Pagination]}
+      className="sm:h-[400px]"
     >
       {testimonialSlider.map((person, index) => {
         return (

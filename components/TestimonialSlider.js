@@ -38,7 +38,7 @@ import { Pagination } from "swiper";
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
 
-const WorkSlider = () => {
+const TestimonialSlider = () => {
   return (
     <Swiper
       spaceBetween={10}
@@ -73,4 +73,4 @@ const WorkSlider = () => {
   );
 };
 
-export default testimonialSlider;
+export default TestimonialSlider;

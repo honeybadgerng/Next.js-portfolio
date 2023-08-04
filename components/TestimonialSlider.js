@@ -35,7 +35,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
 // icons
-import { BsArrowRight } from "react-icons/bs";
+import { FaQuoteLeft } from "react-icons/fa";
 import Image from "next/image";
 
 const TestimonialSlider = () => {
@@ -62,7 +62,12 @@ const TestimonialSlider = () => {
                   {/* position */}
                   <div>position</div>
                   {/* quote and message */}
-                  <div>quote and message</div>
+                  <div>
+                    {/* quote icon */}
+                    <div>
+                      <FaQuoteLeft />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

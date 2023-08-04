@@ -23,8 +23,54 @@ export const testimonialSlider = [
   },
 ];
 
-const TestimonialSlider = () => {
-  return <div>Testimonial Slider</div>;
+// import swiper react component
+import { Swiper, SwiperSlide } from "swiper/react";
+
+//
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
+
+// icons
+import { BsArrowRight } from "react-icons/bs";
+import Image from "next/image";
+
+const WorkSlider = () => {
+  return (
+    <Swiper
+      spaceBetween={10}
+      pagination={{
+        clickable: true,
+      }}
+      modules={[Pagination]}
+      className="h-[280px] sm:h-[480px]"
+    >
+      {testimonialSlider.map((person, index) => {
+        return (
+          <SwiperSlide key={index}>
+            <div>
+              {/* Avatar, name, position */}
+              <div>
+                <div>
+                  {/* avatar */}
+                  <div>Avatar image</div>
+                  {/* name */}
+                  <div>Name</div>
+                  {/* position */}
+                  <div>position</div>
+                  {/* quote and message */}
+                  <div>quote and message</div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        );
+      })}
+    </Swiper>
+  );
 };
 
-export default TestimonialSlider;
+export default WorkSlider;

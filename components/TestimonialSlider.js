@@ -67,6 +67,8 @@ const TestimonialSlider = () => {
                     <div className="mb-4">
                       <FaQuoteLeft className="text-4xl xl:text-6xl text-white/20 max-auto md:mx-0" />
                     </div>
+                    {/* message */}
+                    <div>{person.message}</div>
                   </div>
                 </div>
               </div>

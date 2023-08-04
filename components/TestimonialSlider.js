@@ -65,7 +65,7 @@ const TestimonialSlider = () => {
                     />
                   </div>
                   {/* name */}
-                  <div>{person.name}</div>
+                  <div className="text-lg">{person.name}</div>
                   {/* position */}
                   <div>position</div>
                   {/* quote and message */}

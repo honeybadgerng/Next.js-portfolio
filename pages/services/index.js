@@ -18,10 +18,15 @@ const Services = () => {
             <h2 className="h2 xl:mt-8">
               My services <span className="text-accent">.</span>
             </h2>
-            <p className="mb-4 max-w-[400px] mx-auto lg:mx-0">lorem ipsum</p>
+            <p className="mb-4 max-w-[400px] mx-auto lg:mx-0">
+              lorem ipsum nffjdj ndndndnn jddddndn jndndnn nsnndn jdndnfnfn
+              mnfndfndn mnfjjkfnk jenfefe
+            </p>
           </div>
-          {/* slider */}
-          <ServiceSlider />
+          <div className="w-full xl:max-w-[65%]">
+            {/* slider */}
+            <ServiceSlider />
+          </div>
         </div>
       </div>
       <Bulb />

@@ -51,9 +51,9 @@ const TestimonialSlider = () => {
       {testimonialSlider.map((person, index) => {
         return (
           <SwiperSlide key={index}>
-            <div>
+            <div className="flex flex-col items-center md:flex-row gap-x-8 h-full px-16">
               {/* Avatar, name, position */}
-              <div>
+              <div className="w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0">
                 <div>
                   {/* avatar */}
                   <div>Avatar image</div>
@@ -62,16 +62,16 @@ const TestimonialSlider = () => {
                   {/* position */}
                   <div>position</div>
                   {/* quote and message */}
-                  <div className="bg-pink-500/10 flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20">
-                    {/* quote icon */}
-                    <div className="mb-4">
-                      <FaQuoteLeft className="text-4xl xl:text-6xl text-white/20 max-auto md:mx-0" />
-                    </div>
-                    {/* message */}
-                    <div className="xl:text-lg text-center md:text-left">
-                      {person.message}
-                    </div>
-                  </div>
+                </div>
+              </div>
+              <div className="bg-pink-500/10 flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20">
+                {/* quote icon */}
+                <div className="mb-4">
+                  <FaQuoteLeft className="text-4xl xl:text-6xl text-white/20 max-auto md:mx-0" />
+                </div>
+                {/* message */}
+                <div className="xl:text-lg text-center md:text-left">
+                  {person.message}
                 </div>
               </div>
             </div>

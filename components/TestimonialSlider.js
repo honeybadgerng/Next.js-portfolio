@@ -73,4 +73,4 @@ const WorkSlider = () => {
   );
 };
 
-export default WorkSlider;
+export default testimonialSlider;

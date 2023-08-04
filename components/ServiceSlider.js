@@ -79,6 +79,10 @@ const ServiceSlider = () => {
                 <div>{item.title}</div>
                 <p>{item.description}</p>
               </div>
+              {/* arrow */}
+              <div className="text-3xl">
+                <RxArrowTopRight />
+              </div>
             </div>
           </SwiperSlide>
         );

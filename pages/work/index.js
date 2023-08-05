@@ -31,8 +31,8 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              lorem ipsum nffjdj ndndndnn jddddndn jndndnn nsnndn jdndnfnfn
-              mnfndfndn mnfjjkfnk jenfefe
+              I'm excited to share with you a glimpse of my portfolio, featuring
+              a selection of both completed and ongoing projects:
             </motion.p>
           </div>
           <motion.div

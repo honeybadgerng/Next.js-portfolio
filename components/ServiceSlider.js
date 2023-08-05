@@ -24,27 +24,32 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "Let's unlock the true potential of your brand and embark on a transformative journey of storytelling and visual identity that sets you apart in today's competitive market.",
   },
   {
     icon: <RxPencil2 />,
     title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "Get ready to embark on a design journey that combines innovation, creativity, and purpose to bring your ideas to life. Let's make your project an extraordinary visual reality!",
   },
   {
     icon: <RxDesktop />,
     title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "As a seasoned developer, I am eager to bring your project to life with clean, efficient, and scalable code.",
   },
   {
     icon: <RxReader />,
     title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "Get ready to witness the power of words as we breathe life into your brand and connect with your audience on a deeper level.",
   },
   {
     icon: <RxRocket />,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "Get ready to conquer the world of search engines and take your digital growth to new heights!",
   },
 ];
 

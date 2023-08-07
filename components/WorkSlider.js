@@ -25,7 +25,7 @@ export const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/jentro_gadget_sitesample.png",
         },
         {
           title: "title",

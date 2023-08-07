@@ -33,7 +33,7 @@ export const workSlides = {
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
+          path: "/yarn-decentralized-social-media-app.png",
         },
         {
           title: "title",

@@ -17,7 +17,7 @@ export const workSlides = {
         },
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/resolvedecor.png",
         },
       ],
     },

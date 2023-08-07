@@ -51,11 +51,11 @@ export const aboutData = [
     info: [
       {
         title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        stage: "2019 - 2020",
       },
       {
         title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        stage: "2021 - 2022",
       },
     ],
   },
@@ -63,16 +63,12 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "UX/UI Designer - RJB Xclusive",
+        stage: "2021 - till date",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Web Developer - Digital Solutions NG",
+        stage: "2022 - till date",
       },
     ],
   },
@@ -80,16 +76,12 @@ export const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Web Development - Innopolis University, Russia.",
+        stage: "2022",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Certified Graphic Designer - Coursera",
+        stage: "2017",
       },
     ],
   },

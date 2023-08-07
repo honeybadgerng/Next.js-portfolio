@@ -28,6 +28,7 @@ const ProjectsBtn = () => {
             bottom: 0,
             left: 0,
             margin: "auto",
+            zIndex: "10",
           }}
         />
         <HiArrowRight className="absolute text-4xl group-hover:translate-x-2 transition-all duration-300" />

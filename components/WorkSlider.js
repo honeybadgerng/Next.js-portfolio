@@ -5,7 +5,7 @@ export const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/yarn_social_media_app.png",
         },
         {
           title: "title",

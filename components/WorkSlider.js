@@ -9,11 +9,11 @@ export const workSlides = {
         },
         {
           title: "title",
-          path: "/yarn-decentralized-social-media-app.png",
+          path: "/xclusiveproperties.png",
         },
         {
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/thumb4.jpg",
         },
         {
           title: "title",

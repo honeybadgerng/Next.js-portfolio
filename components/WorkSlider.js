@@ -29,7 +29,7 @@ export const workSlides = {
         },
         {
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/regalia_gadget_sample.png",
         },
         {
           title: "title",

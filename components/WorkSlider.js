@@ -6,18 +6,22 @@ export const workSlides = {
         {
           title: "title",
           path: "/yarn_social_media_app.png",
+          link: "https://mern-social-media2-b24jrz91t-honeybadgerng.vercel.app/",
         },
         {
           title: "title",
           path: "/xclusiveproperties.png",
+          link: "https://xclusiveproperties.homes/",
         },
         {
           title: "title",
           path: "/rjbxclusive.png",
+          link: "https://rjbxclusive.com/",
         },
         {
           title: "title",
           path: "/resolvedecor.png",
+          link: "https://honeybadgerng.github.io/interor_decor_sample_site_1/",
         },
       ],
     },
@@ -26,14 +30,17 @@ export const workSlides = {
         {
           title: "title",
           path: "/jentro_gadget_sitesample.png",
+          link: "https://honeybadgerng.github.io/gadgetsamplesite2/",
         },
         {
           title: "title",
           path: "/regalia_gadget_sample.png",
+          link: "https://honeybadgerng.github.io/gadgetsitesample1/",
         },
         {
           title: "title",
           path: "/yarn-decentralized-social-media-app.png",
+          link: "https://decentralized-social-media-app-three.vercel.app/",
         },
         {
           title: "title",
@@ -113,14 +120,37 @@ const WorkSlider = () => {
                       <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
                         <div className="flex items-center gap-x-2 text-[13px] tracking[0.2em]">
                           {/* title part 1 */}
-                          <div className="delay-100">LIVE</div>
+                          <div className="delay-100">
+                            <a
+                              href={image.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="delay-100"
+                            >
+                              LIVE
+                            </a>
+                          </div>
                           {/* title part 2 */}
                           <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
-                            PROJECT
+                            <a
+                              href={image.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="delay-100"
+                            >
+                              PROJECT
+                            </a>
                           </div>
                           {/* icon */}
                           <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
-                            <BsArrowRight />
+                            <a
+                              href={image.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="delay-100"
+                            >
+                              <BsArrowRight />
+                            </a>
                           </div>
                         </div>
                       </div>

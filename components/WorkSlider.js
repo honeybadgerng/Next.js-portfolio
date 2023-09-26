@@ -8,17 +8,18 @@ export const workSlides = {
           path: "/xclusivepay.jpg",
           link: "https://web3-paypal-frontend.vercel.app/",
         },
-        ,
-        {
-          title: "title",
-          path: "/xclusiveproperties.png",
-          link: "https://xclusiveproperties.homes/",
-        },
         {
           title: "title",
           path: "/yarn_social_media_app.png",
           link: "https://mern-social-media2-b24jrz91t-honeybadgerng.vercel.app/",
         },
+
+        {
+          title: "title",
+          path: "/xclusiveproperties.png",
+          link: "https://xclusiveproperties.homes/",
+        },
+
         {
           title: "title",
           path: "/resolvedecor.png",

@@ -11,6 +11,13 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
 const Contact = () => {
+  const onSubmit = async (e) => {
+    console.log("~ e", e);
+    const isValid = await trigger();
+    if (!isValid) {
+      e.preventDefault();
+    }
+  };
   return (
     <div className="h-full bg-primary/30">
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
@@ -33,15 +40,41 @@ const Contact = () => {
             animate="show"
             exit="hidden"
             className="flex-1 flex flex-col gap-6 w-full mx-auto"
+            target="_blank"
+            onSubmit={onSubmit}
+            action="https://formsubmit.co/13e1273f5b7a4c1bb177d4b64550c7f8"
+            method="POST"
           >
             {/* input group */}
             <div className="flex gap-x-6 w-full">
-              <input type="text" placeholder="name" className="input" />
-              <input type="text" placeholder="email" className="input" />
+              <input
+                type="text"
+                placeholder="name"
+                name="name"
+                className="input"
+              />
+              <input
+                type="text"
+                placeholder="email"
+                name="email"
+                className="input"
+              />
             </div>
-            <input type="text" placeholder="subject" className="input" />
-            <textarea placeholder="message" className="textarea"></textarea>
-            <button className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group">
+            <input
+              type="text"
+              placeholder="subject"
+              name="subject"
+              className="input"
+            />
+            <textarea
+              placeholder="message"
+              name="message"
+              className="textarea"
+            ></textarea>
+            <button
+              className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
+              type="submit"
+            >
               <span className="group-hover:translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
                 Send
               </span>

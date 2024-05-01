@@ -37,9 +37,9 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Logical and results-driven Web Developer committed to creating and
-            enhancing user-centric websites and web 3.0 projects for diverse
-            business goals.
+            Logical and results-driven Web and Mobile App Developer committed to
+            creating and enhancing user-centric websites and web 3.0 projects
+            for diverse business goals.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">

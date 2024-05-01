@@ -17,7 +17,7 @@ export const workSlides = {
         {
           title: "title",
           path: "/xclusiveproperties.png",
-          link: "https://xclusiveproperties.homes/",
+          link: "https://honeybadgerng.github.io/RJB-Properties/",
         },
 
         {
@@ -55,7 +55,7 @@ export const workSlides = {
         {
           title: "title",
           path: "/rjbxclusive.png",
-          link: "https://rjbxclusive.com/",
+          link: "https://honeybadgerng.github.io/RJB/",
         },
         {
           title: "title",

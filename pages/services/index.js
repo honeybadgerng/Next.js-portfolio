@@ -31,8 +31,8 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              As a full-stack developer, I offer a range of services to help you
-              build and enhance your web projects.
+              As a full-stack developer, and Digital Marketer I offer a range of
+              services to help you build and enhance your web projects.
             </motion.p>
           </div>
           <motion.div

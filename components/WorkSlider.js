@@ -5,9 +5,10 @@ export const workSlides = {
       images: [
         {
           title: "title",
-          path: "/xclusivepay.jpg",
-          link: "https://web3-paypal-frontend.vercel.app/",
+          path: "/jentro_gadget_sitesample.png",
+          link: "https://honeybadgerng.github.io/gadgetsamplesite2/",
         },
+
         {
           title: "title",
           path: "/yarn_social_media_app.png",
@@ -17,7 +18,7 @@ export const workSlides = {
         {
           title: "title",
           path: "/xclusiveproperties.png",
-          link: "https://xclusiveproperties.homes/",
+          link: "https://honeybadgerng.github.io/RJB-Properties/",
         },
 
         {
@@ -31,8 +32,62 @@ export const workSlides = {
       images: [
         {
           title: "title",
-          path: "/jentro_gadget_sitesample.png",
-          link: "https://honeybadgerng.github.io/gadgetsamplesite2/",
+          path: "/audipsalm.png",
+          link: "https://honeybadgerng.github.io/audipsalmwebapp/",
+        },
+
+        {
+          title: "title",
+          path: "/mervielle.png",
+          link: "https://honeybadgerng.github.io/Mervielle_hub/",
+        },
+
+        {
+          title: "title",
+          path: "/securepress.png",
+          link: "https://honeybadgerng.github.io/securepress/",
+        },
+
+        {
+          title: "title",
+          path: "/saz portfolio.png",
+          link: "https://honeybadgerng.github.io/saz-solutions/",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
+          path: "/xclusive mart.png",
+          link: "https://ecomerce-vert-kappa.vercel.app/",
+        },
+
+        {
+          title: "title",
+          path: "/xclusive realtors.png",
+          link: "https://uae-properties-teal.vercel.app/",
+        },
+
+        // {
+        //   title: "title",
+        //   path: "/securepress.png",
+        //   link: "https://honeybadgerng.github.io/securepress/",
+        // },
+
+        // {
+        //   title: "title",
+        //   path: "/saz portfolio.png",
+        //   link: "https://honeybadgerng.github.io/saz-solutions/",
+        // },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
+          path: "/xclusivepay.jpg",
+          link: "https://web3-paypal-frontend.vercel.app/",
         },
         {
           title: "title",
@@ -55,7 +110,7 @@ export const workSlides = {
         {
           title: "title",
           path: "/rjbxclusive.png",
-          link: "https://rjbxclusive.com/",
+          link: "https://honeybadgerng.github.io/RJB/",
         },
         {
           title: "title",

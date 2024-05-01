@@ -24,7 +24,7 @@ export const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
+        title: "Web & App Development",
         icons: [
           <FaHtml5 key="html" />,
           <FaCss3 key="css" />,

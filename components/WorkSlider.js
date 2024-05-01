@@ -32,6 +32,60 @@ export const workSlides = {
       images: [
         {
           title: "title",
+          path: "/audipsalm.png",
+          link: "https://honeybadgerng.github.io/audipsalmwebapp/",
+        },
+
+        {
+          title: "title",
+          path: "/mervielle.png",
+          link: "https://honeybadgerng.github.io/Mervielle_hub/",
+        },
+
+        {
+          title: "title",
+          path: "/securepress.png",
+          link: "https://honeybadgerng.github.io/securepress/",
+        },
+
+        {
+          title: "title",
+          path: "/saz portfolio.png",
+          link: "https://honeybadgerng.github.io/saz-solutions/",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
+          path: "/xclusive mart.png",
+          link: "https://ecomerce-vert-kappa.vercel.app/",
+        },
+
+        {
+          title: "title",
+          path: "/xclusive realtors.png",
+          link: "https://uae-properties-teal.vercel.app/",
+        },
+
+        // {
+        //   title: "title",
+        //   path: "/securepress.png",
+        //   link: "https://honeybadgerng.github.io/securepress/",
+        // },
+
+        // {
+        //   title: "title",
+        //   path: "/saz portfolio.png",
+        //   link: "https://honeybadgerng.github.io/saz-solutions/",
+        // },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
           path: "/xclusivepay.jpg",
           link: "https://web3-paypal-frontend.vercel.app/",
         },

@@ -5,9 +5,10 @@ export const workSlides = {
       images: [
         {
           title: "title",
-          path: "/xclusivepay.jpg",
-          link: "https://web3-paypal-frontend.vercel.app/",
+          path: "/jentro_gadget_sitesample.png",
+          link: "https://honeybadgerng.github.io/gadgetsamplesite2/",
         },
+
         {
           title: "title",
           path: "/yarn_social_media_app.png",
@@ -31,8 +32,8 @@ export const workSlides = {
       images: [
         {
           title: "title",
-          path: "/jentro_gadget_sitesample.png",
-          link: "https://honeybadgerng.github.io/gadgetsamplesite2/",
+          path: "/xclusivepay.jpg",
+          link: "https://web3-paypal-frontend.vercel.app/",
         },
         {
           title: "title",

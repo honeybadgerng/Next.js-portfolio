@@ -99,10 +99,10 @@ export const workSlides = {
           path: "/yarn-decentralized-social-media-app.png",
           link: "https://decentralized-social-media-app-three.vercel.app/",
         },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-        },
+        // {
+        //   title: "title",
+        //   path: "/thumb3.jpg",
+        // },
       ],
     },
     {
@@ -112,18 +112,18 @@ export const workSlides = {
           path: "/rjbxclusive.png",
           link: "https://honeybadgerng.github.io/RJB/",
         },
-        {
-          title: "title",
-          path: "/thumb1.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-        },
+        // {
+        //   title: "title",
+        //   path: "/thumb1.jpg",
+        // },
+        // {
+        //   title: "title",
+        //   path: "/thumb2.jpg",
+        // },
+        // {
+        //   title: "title",
+        //   path: "/thumb3.jpg",
+        // },
       ],
     },
   ],

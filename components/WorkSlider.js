@@ -182,7 +182,7 @@ const WorkSlider = () => {
                               rel="noopener noreferrer"
                               className="delay-100"
                             >
-                              Click here
+                              Demo
                             </a>
                           </div>
                           {/* title part 2 */}
@@ -193,7 +193,7 @@ const WorkSlider = () => {
                               rel="noopener noreferrer"
                               className="delay-100"
                             >
-                              for Live Demo
+                              Live
                             </a>
                           </div>
                           {/* icon */}

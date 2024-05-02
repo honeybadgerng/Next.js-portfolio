@@ -182,7 +182,7 @@ const WorkSlider = () => {
                               rel="noopener noreferrer"
                               className="delay-100"
                             >
-                              Demo
+                              View
                             </a>
                           </div>
                           {/* title part 2 */}

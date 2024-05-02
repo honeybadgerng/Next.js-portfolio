@@ -193,7 +193,7 @@ const WorkSlider = () => {
                               rel="noopener noreferrer"
                               className="delay-100"
                             >
-                              for Demo
+                              for Live Demo
                             </a>
                           </div>
                           {/* icon */}

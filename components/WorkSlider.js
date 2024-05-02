@@ -5,10 +5,9 @@ export const workSlides = {
       images: [
         {
           title: "title",
-          path: "/jentro_gadget_sitesample.png",
-          link: "https://honeybadgerng.github.io/gadgetsamplesite2/",
+          path: "/xclusive realtors.png",
+          link: "https://uae-properties-teal.vercel.app/",
         },
-
         {
           title: "title",
           path: "/yarn_social_media_app.png",
@@ -17,14 +16,13 @@ export const workSlides = {
 
         {
           title: "title",
-          path: "/xclusiveproperties.png",
-          link: "https://honeybadgerng.github.io/RJB-Properties/",
+          path: "/xclusive mart.png",
+          link: "https://ecomerce-vert-kappa.vercel.app/",
         },
-
         {
           title: "title",
-          path: "/resolvedecor.png",
-          link: "https://honeybadgerng.github.io/interor_decor_sample_site_1/",
+          path: "/mervielle.png",
+          link: "https://honeybadgerng.github.io/Mervielle_hub/",
         },
       ],
     },
@@ -38,8 +36,8 @@ export const workSlides = {
 
         {
           title: "title",
-          path: "/mervielle.png",
-          link: "https://honeybadgerng.github.io/Mervielle_hub/",
+          path: "/resolvedecor.png",
+          link: "https://honeybadgerng.github.io/interor_decor_sample_site_1/",
         },
 
         {
@@ -59,14 +57,13 @@ export const workSlides = {
       images: [
         {
           title: "title",
-          path: "/xclusive mart.png",
-          link: "https://ecomerce-vert-kappa.vercel.app/",
+          path: "/jentro_gadget_sitesample.png",
+          link: "https://honeybadgerng.github.io/gadgetsamplesite2/",
         },
-
         {
           title: "title",
-          path: "/xclusive realtors.png",
-          link: "https://uae-properties-teal.vercel.app/",
+          path: "/xclusiveproperties.png",
+          link: "https://honeybadgerng.github.io/RJB-Properties/",
         },
 
         // {
